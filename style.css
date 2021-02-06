@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+
+body {
+  background-color: #427bb1;
+  user-select: none;
+  font-family: "Hachi Maru Pop", cursive;
+  font-stretch: expanded;
+}
+.title-container {
+  background-color: rgb(3, 7, 10);
+  opacity: 100%;
+  box-shadow: 14px 11px 13px 1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.title {
+  color: #00ffbfee;
+  font-size: 40px;
+  padding: 10px 100px 10px 100px;
+}
+
+.buttons {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 2px;
+}
+.btn {
+  padding: 10px 100px 10px 100px;
+  box-shadow: 14px 10px 13px 6px rgba(0, 0, 0, 0.42);
+  color: rgb(23, 168, 212);
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 100px 100px 100px 100px;
+  background-color: rgb(12, 27, 31);
+}
+.btn:hover {
+  background-color: rgb(9, 38, 82);
+  color: rgb(0, 0, 0);
+  animation: pulse 0.3s ease;
+}
+#pulse:hover {
+  animation: pulse 0.3s ease;
+}
+@keyframes pulse {
+  25% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+}
+#result {
+  font-size: 100px;
+  text-align: center;
+  color: rgb(82, 6, 182);
+  font-weight: 1000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+#choice {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(82, 6, 182);
+  font-weight: 1000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+span {
+  padding: 50px;
+  color: yellow;
+  opacity: 100%;
+}
+p {
+  font-size: 100px;
+  text-align: center;
+  color: rgb(82, 6, 182);
+  font-weight: 1000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#score {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+#playerSelection {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(82, 6, 182);
+  font-weight: 1000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  float: left;
+}
+#computerSelection {
+  display: flex;
+  position: relative;
+  float: left;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(82, 6, 182);
+  font-weight: 1000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  float: right;
+}
+.animate-text {
+  animation: pulse 0.3s ease;
+}
